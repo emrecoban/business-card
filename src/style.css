@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: #23252C;
+}
+
+h1, h2, h3, h4{
+    margin: 0;
+}
+
+/* Header Component */
+
+.head{
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 317px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+.head > h3{
+    font-weight: 500;
+    color: #F47D27;
+}
+
+.head > h4{
+    margin-top:10px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.personal{
+    width: 317px;
+    height: 317px;
+    margin-bottom:20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.links{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mail{
+    padding: 10px 30px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border:1px solid #D1D5DB;
+    border-radius: 8px;
+}
+.mail > i{
+    margin-right:5px;
+}
+
+.linkedin{
+    padding: 10px 30px;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: #297FE5;
+    border:1px solid #D1D5DB;
+    color:white;
+    border-radius: 8px;
+}
+.linkedin > i{
+    margin-right:5px;
+}
+
+/* Content Component */
+
+.main{
+    margin-right: auto;
+    margin-left: auto;
+    width: 317px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    padding: 10px 30px;
+}
+
+.main > p{
+    text-align: left;
+    font-size:12px;
+    margin: 5px 0px;
+    line-height: 16px;
+}
+
+/* Footer Component */
+
+footer{
+    margin-right: auto;
+    margin-left: auto;
+    width: 317px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    background-color: #D5D4D8;
+    height: 64px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+footer > a {
+    color:#918E9B;
+    font-size:28px;
+}
